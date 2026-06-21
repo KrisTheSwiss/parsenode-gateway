@@ -1,0 +1,7 @@
+[
+  {
+    "path": "/v1/parse",
+    "method": "POST",
+    "handler": "src/parse.ts"
+  }
+]
