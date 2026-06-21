@@ -1,15 +1,5 @@
 {
-  "routes": [
-    {
-      "path": "/v1/parse",
-      "method": "POST",
-      "handler": {
-        "url": "https://your-railway-worker-url.railway.app/v1/parse"
-      },
-      "policies": [
-        "x402-payment-gate",
-        "zero-retention-logger"
-      ]
-    }
-  ]
+  "version": 1,
+  "project": "parsenode-gateway",
+  "compatibilityDate": "2024-03-01"
 }
