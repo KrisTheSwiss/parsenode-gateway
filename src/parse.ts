@@ -1,5 +1,5 @@
 import { ZuploContext, ZuploRequest } from "@zuplo/runtime";
-import { supabase } from "../modules/supabase";
+import { supabase } from "modules/supabase";
 
 export default async function (request: ZuploRequest, context: ZuploContext) {
   try {
@@ -28,9 +28,9 @@ export default async function (request: ZuploRequest, context: ZuploContext) {
 
     // 2. Deduct 1 credit balance via rpc debit function
     const { data: debitSuccess, error: debitError } = await supabase
-      .rpc("debit_wallet_balance", { 
-        p_wallet: wallet_address, 
-        p_amount: 1 
+      .rpc("debit_wallet_balance", {
+        p_wallet: wallet_address,
+        p_amount: 1
       });
 
     if (debitError || !debitSuccess) {
