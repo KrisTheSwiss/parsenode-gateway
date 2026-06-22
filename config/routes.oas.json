@@ -7,7 +7,7 @@
   "paths": {
     "/v1/parse": {
       "post": {
-        "summary": "Parse payment data and verify via Supabase",
+        "summary": "Parse payment data",
         "operationId": "parse-payment",
         "x-zuplo-handler": {
           "module": "src/parse",
