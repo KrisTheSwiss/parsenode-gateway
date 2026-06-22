@@ -1,8 +1,8 @@
 {
   "name": "parsenode-gateway",
   "version": "1.0.0",
+  "description": "Zuplo API Gateway for ParseNode",
   "dependencies": {
-    "@supabase/supabase-js": "^2.43.0",
-    "@zuplo/runtime": "latest"
+    "@opentelemetry/api-logs": "^0.52.1"
   }
 }
