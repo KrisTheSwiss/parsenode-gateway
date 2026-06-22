@@ -1,8 +1,0 @@
-{
-  "name": "parsenode-gateway",
-  "version": "1.0.0",
-  "description": "Zuplo API Gateway for ParseNode",
-  "dependencies": {
-    "@opentelemetry/api-logs": "^0.52.1"
-  }
-}
